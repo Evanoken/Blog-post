@@ -1,18 +1,17 @@
-/* App.css */
-
-/* Reset styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
-/* Global styles */
 body {
   font-family: Arial, sans-serif;
+  background-image: url("../photos/img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-/* App container */
 .app {
   display: flex;
   flex-direction: column;
@@ -20,7 +19,6 @@ body {
   padding: 20px;
 }
 
-/* Navigation */
 .nav {
   background-color: hsl(120, 2%, 53%);
   color: black;
@@ -33,7 +31,6 @@ body {
   font-size: 24px;
 }
 
-/* Body content */
 .BodyContent {
   display: flex;
 }
@@ -43,7 +40,6 @@ body {
   margin-right: 20px;
 }
 
-/* Blog post */
 .blog {
   background-color: #f9f9f9;
   padding: 20px;
@@ -62,7 +58,6 @@ body {
   line-height: 1.5;
 }
 
-/* Highlights */
 .highlight {
   flex: 1;
   display: flex;
@@ -88,23 +83,27 @@ body {
   cursor: pointer;
 }
 
-/* Footer */
 .footer {
   margin-top: 20px;
   text-align: center;
   display:flex;
   flex-direction: row;
   gap:100px;
+  background-color: white;
+  padding:10px;
+  align-items:center;
 }
 
 .footer h2 {
-  font-size: 20px;
+  font-size: 28px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .footer h3 {
-  font-size: 16px;
+  font-size: 26px;
   color: #888;
+  font-weight: bold;
 }
 .h2{
   height: 100px;

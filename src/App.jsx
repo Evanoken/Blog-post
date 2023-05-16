@@ -1,5 +1,4 @@
-import './App.css'
-
+import './App.css' 
 const Blog = ({Title, Description}) => {
   return (
     <div className="blog">
@@ -34,7 +33,7 @@ function App() {
           <h1>Blog Posts</h1>
         </div>
         <div className="BodyContent">
-          <div className="cleft">
+          <div className="cleft"> 
     <Blog Title="Essential Tips for Effective Time Management" Description="This blog post provides readers with valuable insights and practical techniques to improve their time management skills. It covers topics such as setting clear goals, prioritizing tasks, avoiding multitasking, and utilizing productivity tools. With easy-to-follow advice and real-life examples, this post empowers readers to maximize their productivity, reduce stress, and achieve better work-life balance."/> 
     <Blog Title="The Art of Mindful Living" Description="Cultivating Inner Peace and Happiness: In this blog post, readers are introduced to the concept of mindful living and its profound impact on mental well-being. It delves into various mindfulness practices, including meditation, breathing exercises, and self-reflection, while highlighting the benefits of incorporating them into daily routines. The post emphasizes the importance of being present, letting go of distractions, and fostering gratitude, ultimately guiding readers on a path toward greater inner peace and long-lasting happiness."/> 
     
