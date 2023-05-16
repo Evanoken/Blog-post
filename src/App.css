@@ -1,0 +1,111 @@
+/* App.css */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* App container */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navigation */
+.nav {
+  background-color: hsl(120, 2%, 53%);
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%
+}
+
+.nav h1 {
+  font-size: 24px;
+}
+
+/* Body content */
+.BodyContent {
+  display: flex;
+}
+
+.cleft {
+  flex: 3;
+  margin-right: 20px;
+}
+
+/* Blog post */
+.blog {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blog p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Highlights */
+.highlight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.hg {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding : 50px 50px;
+  margin-top: 0px;
+  
+}
+
+.hg h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  gap:100px;
+}
+
+.footer h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer h3 {
+  font-size: 16px;
+  color: #888;
+}
+.h2{
+  height: 100px;
+}
